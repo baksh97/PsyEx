@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.psyex.application.ChooseMode;
 import com.psyex.application.DecideOrder;
@@ -29,7 +30,9 @@ public class Questionnaire6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.questionnaire);
+        TextView instr_ques = (TextView) findViewById(R.id.textView_instructions_questionnaire);
 
+        instr_ques.setVisibility(View.INVISIBLE);
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView_questionnaire);
         List<String> questions = Arrays.asList(getResources().getStringArray(R.array.assessment));
         cbtn = (Button) findViewById(R.id.button_continue_question);

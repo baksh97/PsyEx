@@ -25,7 +25,7 @@ public class Instructions2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_instructions_stroop1);
+        setContentView(R.layout.activity_instructions_stroop2);
 
         initViews();
 

@@ -39,17 +39,25 @@ public class Emotions extends AppCompatActivity implements View.OnClickListener{
     TextView valueChosen;
     SeekBar sb;
     Button nextbtn;
+    String currentImage="";
     int count=0;
     final int MAX_COUNT=5;
     Long absTime;
     int queNum=0;
     int imageID=0;
     int c = 0;
-    int[] practiceImages={R.drawable.a001,R.drawable.a002,R.drawable.a004};//,R.drawable.a005,R.drawable.a006,R.drawable.a007};
-    int[][] mode1Images = {{R.drawable.a008,R.drawable.a009,R.drawable.a010},{R.drawable.a008,R.drawable.a009,R.drawable.a010},{R.drawable.a008,R.drawable.a009,R.drawable.a010}};//,R.drawable.a011,R.drawable.a013,R.drawable.a014};
-    int [][] mode2Images = {{R.drawable.a015,R.drawable.a016,R.drawable.a017},{R.drawable.a015,R.drawable.a016,R.drawable.a017},{R.drawable.a015,R.drawable.a016,R.drawable.a017}};//,R.drawable.a018,R.drawable.a019,R.drawable.a020};
-    //    String imageLocation[] = {"ic_launcher_background","ic_star_black_24dp"};
-//    int size = imageLocation.length;
+    int[][] practiceImages={{R.drawable.n001,R.drawable.n002,R.drawable.n003},{R.drawable.n004,R.drawable.n006,R.drawable.n008}};//,{R.}};//,R.drawable.a005,R.drawable.a006,R.drawable.a007}};
+    int[][] mode1Images = {
+            {R.drawable.p067,R.drawable.p030,R.drawable.p041,R.drawable.p035,R.drawable.p028,R.drawable.p057,R.drawable.a095,R.drawable.a041,R.drawable.a100,R.drawable.h077,R.drawable.h078,R.drawable.h074},
+            {R.drawable.p072,R.drawable.p070,R.drawable.p042,R.drawable.p064,R.drawable.p079,R.drawable.p056,R.drawable.h064,R.drawable.h022,R.drawable.a079,R.drawable.h122,R.drawable.h032,R.drawable.a037},
+            {R.drawable.p080,R.drawable.p114,R.drawable.p071,R.drawable.p026,R.drawable.p046,R.drawable.p111,R.drawable.a030,R.drawable.h005,R.drawable.h063,R.drawable.a001,R.drawable.h100,R.drawable.a038}
+    };
+    int [][] mode2Images = {
+                {R.drawable.p007,R.drawable.p128,R.drawable.p110,R.drawable.p092,R.drawable.p050,R.drawable.p121,R.drawable.a075,R.drawable.h038,R.drawable.a018,R.drawable.a071,R.drawable.a007,R.drawable.sp131},
+            {R.drawable.p037,R.drawable.p108,R.drawable.p008,R.drawable.p055,R.drawable.p130,R.drawable.p013,R.drawable.h036,R.drawable.a083,R.drawable.a013,R.drawable.a089,R.drawable.a097,R.drawable.h079},
+            {R.drawable.p045,R.drawable.p014,R.drawable.p086,R.drawable.p087,R.drawable.p095,R.drawable.p063,R.drawable.h037,R.drawable.a055,R.drawable.h034,R.drawable.sp151,R.drawable.h066,R.drawable.sp132}
+    };
+
     int[] imageLocation;
     TextView mode_tv, question_tv, leftValue, rightValue;
     int size;
@@ -66,7 +74,7 @@ public class Emotions extends AppCompatActivity implements View.OnClickListener{
         s="";
         if(isPractice){
 //            size
-            imageLocation=practiceImages;
+            imageLocation=practiceImages[ChooseMode.mode-1];
         }
         else if(ChooseMode.mode==1){
             imageLocation=mode1Images[condition-1];
@@ -92,6 +100,7 @@ public class Emotions extends AppCompatActivity implements View.OnClickListener{
 
     int getRandomImage(){
         if (c<size) {
+            currentImage = getResources().getResourceEntryName(imageLocation[c]);
             return imageLocation[c++];
         }
         else {
@@ -179,6 +188,7 @@ public class Emotions extends AppCompatActivity implements View.OnClickListener{
         s += "Practice/Test, ";;
         s+= "Que Num" + ", " ;
         s+= "image_id" + ", ";
+        s += "image_name"+", ";
         s+= "Response" + ", ";
         s+= "Resp Time" + ", ";
         s+= "\n";
@@ -204,6 +214,7 @@ public class Emotions extends AppCompatActivity implements View.OnClickListener{
         s += (isPractice)?"Practice, ":"Condition "+String.valueOf(condition)+", ";
         s+= queNum + ", ";
         s+= imageID + ", ";
+        s += currentImage+", ";
         s+= val + ", ";
         s+= respTime + ", " ;
         s+= "\n";
@@ -264,8 +275,10 @@ public class Emotions extends AppCompatActivity implements View.OnClickListener{
 //                    startActivity(int1);
 
                     finish();
-                    Intent intent = new Intent(Emotions.this, Instructions5.class);
+                    Intent intent = new Intent(Emotions.this, Subjective1.class);
 //                    intent.putExtra("condition",3);
+                    intent.putExtra("condition",1);
+
 //                    int1.putExtra("isPractice", !isPractice);
                     startActivity(intent);
 

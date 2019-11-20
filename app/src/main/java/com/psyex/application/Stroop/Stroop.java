@@ -32,22 +32,23 @@ public class Stroop extends AppCompatActivity implements View.OnClickListener {
 
     int count=0;
     int colors[] = {R.color.red, R.color.green, R.color.blue, R.color.yellow};
+    int black = R.color.black;
     String texts[] = {"red","green","blue","yellow","when","and"};
     String colorNames[] = {"Red", "Green", "Blue", "Yellow"};
     //    String texts[] = {"red","orange","blue","green","when","and"};
     private String TAG="STROOP";
     Handler handler = new Handler();
-    Runnable r;
+    Runnable r,r1,r2,r3;
     int text_id=-1, color_id;
     int color;
     int responded=0, response, correct;
     String text, cond;
     Long abstime;
-    private TextView incorrect_stroop,mode_tv;
+    private TextView mode_tv;
     Long startTime;
     //    final int MAX_COUNT=10;
     String s="";
-    int size = 16;
+    int size = 72;
     int[] color_list;
     boolean isPractice;
 
@@ -156,6 +157,7 @@ public class Stroop extends AppCompatActivity implements View.OnClickListener {
         init();
 
         mode_tv = (TextView) findViewById(R.id.textView_mode_stroop);
+//        getIncorrect_stroop = (TextView) findViewById(R.id.textView_incorrect_stroop);
         if(isPractice){
             mode_tv.setText("PRACTICE");
         }
@@ -169,8 +171,8 @@ public class Stroop extends AppCompatActivity implements View.OnClickListener {
         bt4 = (Button) findViewById(R.id.stroop_button4);
 
         tv = (TextView) findViewById(R.id.stroop_textview);
-        incorrect_stroop = (TextView) findViewById(R.id.textView_incorrect_stroop);
-        incorrect_stroop.setVisibility(View.INVISIBLE);
+//        incorrect_stroop = (TextView) findViewById(R.id.textView_incorrect_stroop);
+//        incorrect_stroop.setVisibility(View.INVISIBLE);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
@@ -229,12 +231,76 @@ public class Stroop extends AppCompatActivity implements View.OnClickListener {
         Log.e(TAG, s);
 //        saveTextAsFile(t);
 
+        r2= new Runnable() {
+            @Override
+            public void run() {
+                bt1.setClickable(true);
+                bt2.setClickable(true);
+                bt3.setClickable(true);
+                bt4.setClickable(true);
+                generateNew();
+            }
+        };
 
+        r3 = new Runnable() {
+            @Override
+            public void run() {
+                tv.setText("+");
+                tv.setTextColor(ContextCompat.getColor(Stroop.this, black));
+                tv.setVisibility(View.VISIBLE);
+                handler.postDelayed(r2,1000);
+            }
+        };
+
+
+        r1 = new Runnable() {
+            @Override
+            public void run() {
+//                incorrect_stroop.setVisibility(View.INVISIBLE);
+//                tv.setVisibility(View.VISIBLE);
+                tv.setVisibility(View.INVISIBLE);
+                handler.postDelayed(r3,500);
+//                generateNew();
+
+            }
+        };
 
         r = new Runnable() {
             @Override
             public void run() {
-                generateNew();
+//                generateNew();
+                bt1.setClickable(false);
+                bt2.setClickable(false);
+                bt3.setClickable(false);
+                bt4.setClickable(false);
+
+
+                if(responded==0){
+//                    incorrect_stroop.setVisibility(View.VISIBLE);
+                    tv.setText("Too Slow");
+                    tv.setTextColor(ContextCompat.getColor(Stroop.this, black));
+//                    tv.setVisibility(View.INVISIBLE);
+                    handler.postDelayed(r1,500);
+                }
+                else{
+                    if(isPractice){
+//                        bt1.setClickable(false);
+//                        bt2.setClickable(false);
+//                        bt3.setClickable(false);
+//                        bt4.setClickable(false);
+//                        incorrect_stroop.setVisibility(View.VISIBLE);
+//                        tv.setVisibility(View.INVISIBLE);
+                        if(response==color_id+1){
+                            tv.setText("Correct");
+                            tv.setTextColor(ContextCompat.getColor(Stroop.this, black));
+                        }else{
+                            tv.setText("Incorrect");
+                            tv.setTextColor(ContextCompat.getColor(Stroop.this, black));
+                        }
+                        handler.postDelayed(r1,500);
+                    }
+                    else handler.postDelayed(r1,0);
+                }
             }
         };
 
@@ -278,11 +344,14 @@ public class Stroop extends AppCompatActivity implements View.OnClickListener {
                 correct = 1;
             } else {
                 correct = 0;
-                incorrect_stroop.postDelayed(new Runnable() {
-                    public void run() {
-                        incorrect_stroop.setVisibility(View.INVISIBLE);
-                    }
-                }, 500);
+//                if(isPractice) {
+//                    incorrect_stroop.setVisibility(View.VISIBLE);
+//                    handler.postDelayed(new Runnable() {
+//                        public void run() {
+//                            incorrect_stroop.setVisibility(View.INVISIBLE);
+//                        }
+//                    }, 500);
+//                }
 
             }
             s += correct + ", ";
@@ -362,7 +431,7 @@ public class Stroop extends AppCompatActivity implements View.OnClickListener {
         }
 
         handler.removeCallbacks(r);
-        generateNew();
+        handler.postDelayed(r,0);
     }
 
 

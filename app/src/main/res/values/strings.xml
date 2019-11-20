@@ -3,10 +3,27 @@
     <string name="color_description_stroop">1-Red, 2-Green, 3-Blue, 4-Yellow</string>
     <string name="final_string">Thank you for your valuable time and participation. Your repsonses have been recorded for research purposes.</string>
     <string name="final_string_practice">Practice ended! Taking you back to home.</string>
-    <string name="condition1_instructions">Condition 1:\n\nSome of the pictures may prompt emotional experiences; others may seem relatively neutral. Your rating of each picture should reflect your immediate personal experience, and no more. Please rate each picture AS YOU ACTUALLY FELT WHILE YOU WATCHED THE PICTURE.\nPlease look at the pictures and allow your thoughts and emotions to unfold naturally. Please attend to and respond naturally to the picture without trying to alter the feelings elicited.\nPlease view the following and rate the pictures on the questions that follow. Please clarify any doubts that you have regarding the experiment and ratings in this phase.\nTouch \"Next\" to continue!!</string>
-    <string name="condition2_instructions">Condition 2:\n\nFor this phase of the experiment, please try and feel neutral in response to an unpleasant or pleasant image by reinterpreting its meaning to be more neutral. For example, if the image displayed a group of women crying outside of a church, the participant could alter their interpretation of the image by thinking that the women were crying tears of joy after attending a wedding. Please try and reinterpret the displayed situation in such a way that the depicted scene becomes less unpleasant (e.g., imagining the situation being unreal or assuming a different outcome of the scene than the one suggested).\nYou are encouraged to interpret potentially emotionally relevant stimuli in unemotional terms. While viewing the picture, be it positive or negative, please remember that what you are seeing is a picture, with models and different kinds of special effects. The way we emotionally react to something is determined by the way we interpret the situation. By changing the way we think about a situation we can therefore influence our emotional reactions.\nKeeping in mind the instructions given, please use the emotion regulation strategies for reinterpreting the situation depicted in the picture, only after the onset of the picture and not in advance.\nPlease rate the emotions elicited on the three scales following the instructions.\nClick “Next” to continue!!</string>
+    <string name="condition1_instructions">Condition 1:\n\nSome of the pictures may prompt emotional experiences; others may seem relatively neutral. Your rating of each picture should reflect your immediate personal experience, and no more.\n\n Please rate each picture AS YOU ACTUALLY FELT WHILE YOU WATCHED THE PICTURE.\n\nPlease look at the pictures and allow your thoughts and emotions to unfold naturally. Please attend to and respond naturally to the picture without trying to alter the feelings elicited.\n\nPlease view the following and rate the pictures on the questions that follow. Please clarify any doubts that you have regarding the experiment and ratings in this phase.\n\nTouch \"Next\" to continue!!</string>
+    <string name="condition2_instructions">Condition 2:\n\n
+        For this phase of the experiment, please try and feel neutral in response to an unpleasant or pleasant image by reinterpreting its meaning to be more neutral.
+        \n\n
+        For example, if the image displayed a group of women crying outside of a religious place of worship, you could alter their interpretation of the image by thinking that the women were crying tears of joy after attending a wedding.
+        \n\nPlease try and reinterpret the displayed situation in such a way that the depicted scene becomes less unpleasant (e.g., imagining the situation being unreal or assuming a different outcome of the scene than the one suggested).\n\n
+        You are encouraged to interpret potentially emotionally relevant stimuli in unemotional terms. While viewing the picture, be it positive or negative, please remember that what you are seeing is a picture, with models and different kinds of special effects.
+        \n\n
+        The way we emotionally react to something is determined by the way we interpret the situation. By changing the way we think about a situation we can therefore influence our emotional reactions.\n\n
+        Keeping in mind the instructions given, please use the emotion regulation strategies for reinterpreting the situation depicted in the picture, only after the onset of the picture and not in advance.\n\n
+        Please rate the emotions elicited on the three scales following the instructions.\n\n
+        Click “Next” to continue!!</string>
     <string name="condition2_subjective_start">PLEASE EXPLAIN BRIEFLY WHICH EMOTION REGULATION STRATEGY OR STRATEGIES YOU USED FOR THIS PHASE OF THE EXPERIMENT WHILE RATING THE PICTURES.</string>
-    <string name="condition3_instructions">Condition 3:\n\nFor this phase of the experiment, it is very important for the experiment that when you view the image you try and suppress any emotional responses to it you are having. What is meant by this is that you should adopt a detached and unemotional attitude as you view the picture, whether it is positive or negative. Try to think about what you are seeing objectively in such a way that you don’t feel anything at all. In other words, as you view the picture, try to behave in such a way that a person watching you would not know that you were feeling anything. For example, if the picture makes you feel sad, please try to decrease the intensity of sadness that you feel.\nKeeping in mind the instructions given for this phase of the experiment, please use the emotion regulation strategies to suppress your emotions only after picture onset and not in advance.\nKindly please rate the emotions elicited on the three scales following the instructions.</string>
+    <string name="condition3_instructions">Condition 3:\n\n
+        For this phase of the experiment, it is very important for the experiment that when you view the image you try and suppress any emotional responses to it you are having.
+        \n\n
+        What is meant by this is that you should adopt a detached and unemotional attitude as you view the picture, whether it is positive or negative. Try to think about what you are seeing objectively in such a way that you don’t feel anything at all.
+        \n\n
+        In other words, as you view the picture, try to behave in such a way that a person watching you would not know that you were feeling anything. For example, if the picture makes you feel sad, please try to decrease the intensity of sadness that you feel.\n\n
+        Keeping in mind the instructions given for this phase of the experiment, please use the emotion regulation strategies to suppress your emotions only after picture onset and not in advance.\n\n
+        Kindly please rate the emotions elicited on the three scales following the instructions.</string>
     <string name="condition3_subjective_start">PLEASE EXPLAIN BRIEFLY WHICH EMOTION REGULATION STRATEGY OR STRATEGIES YOU USED FOR THIS PHASE OF THE EXPERIMENT WHILE RATING THE PICTURES.</string>
     <string name="practice_end_remarks_main">Thank you for completing the practice phase of the experiment. Now the next phase of the experiment will begin and you will be given short breaks in between to rest your eyes. The experiment will proceed in the same way as this trial where you will be instructed before viewing a picture and then will be required to rate it on 3 dimensions.
 Click \"Next\" to continue!!</string>
@@ -28,37 +45,20 @@ Please rest your eyes and click \"Next\" only when you have rested and ready to 
     <string name="instr_questionnaire1">Instructions for questions 1-8:\nBelow you will find a series of statements about yourself, which you can agree or disagree with. Read them carefully and answer on a scale of 1 to 5, based your experience\n1. Strongly disagree\n2. Disagree\n3. Neither agree nor disagree\n4. Agree\n5. Strongly agree\n\nInstructions for questions 9-12:\nBelow you will find a series of adjectives, in two parallel columns, that describe how you have felt over the past two weeks. There are five numbers between each pair of adjectives. Please select the number that most closely describes your experience.</string>
     <string name="instr_questionnaire2">Please indicate how often you experience the internal states described in each of the items, given below, on a scale of 1 (not at all) to 5 (all the time).</string>
     <string name="instr_questionnaire3">Please indicate how often you experience the internal states described in each of the items, given below, on a scale of 1 (not at all) to 5 (all the time).</string>
-    <string name="instr_questionnaire4">We would like to ask you some questions about your emotional life, in particular, how you control (that is, regulate and manage) your emotions. The questions below involve two distinct aspects of your emotional life. One is your emotional experience, or what you feel like inside. The other is your emotional expression, or how you show your emotions in the way you talk, gesture, or behave. Although some of the following questions may seem similar to one another, they differ in important ways. For each item, please answer using the following scale:\n\n1. Strongly disagree\n2. Disagree\n3. Neutral\n4. Agree\n5. Strongly agree</string>
+    <string name="instr_questionnaire4">We would like to ask you some questions about your emotional life, in particular, how you control (that is, regulate and manage) your emotions. The questions below involve two distinct aspects of your emotional life. One is your emotional experience, or what you feel like inside. The other is your emotional expression, or how you show your emotions in the way you talk, gesture, or behave. Although some of the following questions may seem similar to one another, they differ in important ways. For each item, please answer using the following scale:\n\n1. Strongly disagree\n4. Neutral\n7. Strongly agree</string>
     <string name="instr_questionnaire5">Please use the following five-point scale to answer the questions to mark the extent to which you make use of certain cognitive coping strategies.” \n\'almost never\' (1), \'sometimes\' (2), \'regularly\' (3), \'often\' (4), or \'almost always\' (5)</string>
 
     <string name="gonogo_instrt_practice_for_0">In this task, you will see a series of \'P\'s and \'R\'s on the screen. Whenever you see a \'P\', respond by touching anywhere on the screen. DO NOT RESPOND when you see and \'R\'. Most of the letters you see will be \'P\'s. You will begin with a few practice trials. Press continue to begin.</string>
     <string name="gonogo_instrt_practice_for_1">You may take a short break before you continue. In the second half of this study, the mapping will be reverse. This time touch the screen only when you see the \'R\', but not when you see \'P\'. You will begin with a few practice trials. Touch continue to begin.</string>
-    <string name="stroop_instrt_practice">You are about to take part in a study in which you will be asked to determine the color that written word appears in. Somwtime, the words will be actual color names. When this happens, try not to respond with the written color name, but only with the color of the word. You will need to respond by touching 1-2-3-4 buttons on the screen. Remeber the following color scheme:\n1 - Red\n2 - Green\n3 - Blue\n4 - Yellow.\n It will also be written on the screen in case you forget.</string>
+    <string name="stroop_instrt_practice">You are about to take part in a study in which you will be asked to determine the color that written word appears in. Sometime, the words will be actual color names. When this happens, try not to respond with the written color name, but only with the color of the word. You will need to respond by touching 1-2-3-4 buttons on the screen. Remeber the following color scheme:\n1 - Red\n2 - Green\n3 - Blue\n4 - Yellow.\n It will also be written on the screen in case you forget.</string>
     <string name="main_instr_practice">Please view the following and rate the pictures on the questions that follow. Please clarify
 any doubts that you have regarding the experiment and ratings in this phase.
 Click \"Next\" to continue!!</string>
     <string name="main_preinstrt_practice">This is a psychology experiment wherein you will be subjected to pictures and required to rate it on a few parameters. You will be instructed for each part of the experiment clearly and you will be allowed to ask any question at any stage. There will be 3 conditions within this experiment.
-
+\n\n
 In this experiment, you will be looking at pictures on the screen in front of you, and you will be asked to rate each picture in terms of how it made you feel while viewing it. There are no right or wrong answers, so simply respond as honestly as you can.
-
-You will make 3 ratings for each picture that you view in all the three conditions. You will rate three different kinds of feelings: Valence Scale: Very Negative Pictures vs. Very Positive Pictures (Negative, Neutral, Positive) Arousal Scale 1: Calm vs. Excited (Calm, Neutral, Excited) Arousal Scale 2: Stimulated vs. Relaxed (Stimulated, Neutral, Relaxed)
-
-1. Valence Scale - (Very Negative Pictures vs. Very Positive Pictures (Negative, Neutral, Positive) :
-
-The first scale will be from negative to positive and say, \"You are judging this image as ...\". This scale will give the rating of valence for the pictures (from 0 = very negative pictures to 100 = very positive pictures, with 50 = neutral). At one extreme of the scale, you felt happy, pleased, satisfied, contented, hopeful. If you felt completely positive while viewing the picture, please click the marker at or closer to the Positive end of the scale. The other end of the scale is when you felt completely unhappy, annoyed, unsatisfied, melancholic, despaired, bored. You can indicate feelingcompletely Negative by clicking the marker at Negative. If you felt completely neutral, neither happy nor unhappy, click the marker at the midpoint of the scale.
-
-Your rating should indicate whether the picture generated Negative, Neutral, or Positive feeling in you.
-
-2. Arousal Scale 1: Calm vs. Excited (Calm, Neutral, Excited) and
-
-Arousal Scale 2: Stimulated vs. Relaxed (Stimulated, Neutral, Relaxed)
-
-If you felt low (0%) excitement/stimulation (e.g., you felt calm, relaxed, sluggish, dull, sleepy, unaroused), please click the marker at, or closer to the Calm end of the scale –if you felt high (100%) excitement (e.g., you felt stimulated, excited, frenzied, jittery, wide-awake, aroused), please click towards the Excited end of the scale. If you felt Neutral (50%) of excitement, click the marker at the midpoint of the scale.
-
-On the contrary, if you felt low (0%) excitement/stimulation or 100% relaxed (e.g., you felt calm, relaxed, sluggish, dull, sleepy, unaroused), please click the marker at, or closer to the Relaxed end of the scale –if you felt low (0% excitement (e.g., you felt stimulated, excited, frenzied, jittery, wide-awake, aroused), please click towards the Stimulated end of the scale.If you felt Neutral (50%) of excitement, click the marker at the midpoint of the scale.
-
-Your rating should indicate whether the picture generated Low, Neutral, or High level of Excitement in you.
-
+\n\n
+You will make 3 ratings for each picture that you view in all the three conditions. You will rate three different kinds of feelings:\n\nValence Scale: Very Negative Pictures vs. Very Positive Pictures (Negative, Neutral, Positive) \n\nArousal Scale 1: Calm vs. Excited (Calm, Neutral, Excited) \n\nArousal Scale 2: Stimulated vs. Relaxed (Stimulated, Neutral, Relaxed)\n\n
 Click \"Next\" to continue!!</string>
 
     <string-array name="questions1">
@@ -169,8 +169,8 @@ Click \"Next\" to continue!!</string>
         <item>Marital Status</item>
         <item>No. of children (If Any)</item>
         <item>Currently Living with</item>
-        <item>Socioeconomic status</item>
-        <item>Language/s spoken</item>
+        <!--<item>Socioeconomic status</item>-->
+        <!--<item>Language/s spoken</item>-->
         <item>Any current illness or medication:</item>
     </string-array>
 
@@ -182,6 +182,26 @@ Click \"Next\" to continue!!</string>
         <item>Would you like to be a part of other such courses? If yes, which kinds of courses or programs or sessions?</item>
     </string-array>
 
+    <string-array name="condition1_subjective">
+        <item>Did you attend to and respond naturally to the picture without trying to alter the feelings elicited in the positive pictures while rating?</item>
+        <item>Did you attend to and respond naturally to the picture without trying to alter the feelings elicited in the negative pictures while rating?</item>
+        <item>How did the positive pictures make you feel for this condition of the experiment?</item>
+        <item>How did the negative pictures make you feel for this condition of the experiment?</item>
+    </string-array>
+
+    <string-array name="condition2_subjective">
+        <item>Did you reinterpret the situation depicted in the positive pictures to more neutral meaning while rating?</item>
+        <item>Did you reinterpret the situation depicted in the negative pictures to more neutral meaning while rating?</item>
+        <item>How did the positive pictures make you feel for this condition of this experiment?</item>
+        <item>How did the negative pictures make you feel for this condition of this experiment?</item>
+    </string-array>
+
+    <string-array name="condition3_subjective">
+        <item>Did you try and suppress the emotional responses you had as you viewed the positive pictures?</item>
+        <item>Did you try and suppress the emotional responses you had as you viewed the negative pictures?</item>
+        <item>How did the positive pictures make you feel for this condition of this experiment?</item>
+        <item>How did the negative pictures make you feel for this condition of this experiment?</item>
+    </string-array>
 
     <string name="continue_practice">Continue</string>
     <string name="practice_extra">isPractice</string>

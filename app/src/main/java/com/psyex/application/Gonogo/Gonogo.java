@@ -147,9 +147,9 @@ public class Gonogo extends AppCompatActivity {
 
 
         if(isPractice){
-            size=4;
+            size=8;
         }
-        else size=4;
+        else size=80;
 
         mode_tv = (TextView) findViewById(R.id.textView_mode_gonogo);
         if(isPractice){
@@ -274,6 +274,7 @@ public class Gonogo extends AppCompatActivity {
 
         r = new Runnable() {
             public void run () {
+                cl.setClickable(true);
 
 
                 start=true;
@@ -439,6 +440,8 @@ public class Gonogo extends AppCompatActivity {
 
             }
         };
+
+        cl.setClickable(false);
         handler.postDelayed(r,2000);
 
     }

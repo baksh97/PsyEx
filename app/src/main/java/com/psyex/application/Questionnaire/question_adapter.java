@@ -30,15 +30,24 @@ public class question_adapter extends RecyclerView.Adapter<question_adapter.MyVi
 //
 //            }
 //        }
+        String leftright[][] =
+        {{"Strongly disagree","Strongly agree"},
+                {"not at all", "all the time"},
+        {"not at all", "all the time"},
+        {"Strongly disagree","Strongly agree"},
+        {"almost never","almost always"}
+        };
 
         public class MyViewHolder extends RecyclerView.ViewHolder {
-            public TextView questionText,question_num;
+            public TextView questionText,question_num, leftVal, rightVal;
             RadioGroup rg;
 
             public MyViewHolder(View view) {
                 super(view);
                 questionText = (TextView) view.findViewById(R.id.textView_question_questionnaire);
                 question_num = (TextView) view.findViewById(R.id.textView_question_num_questionnaire);
+                leftVal = (TextView) view.findViewById(R.id.textView_left_questionnaire1);
+                rightVal = (TextView) view.findViewById(R.id.textView_right_questionnaire1);
                 rg = (RadioGroup) view.findViewById(R.id.radioGroup_questionnaire);
 
 //                genre = (TextView) view.findViewById(R.id.genre);
@@ -81,6 +90,18 @@ public class question_adapter extends RecyclerView.Adapter<question_adapter.MyVi
             String questionText = questionList.get(position);
             holder.questionText.setText(questionText);
             holder.question_num.setText(String.valueOf(position+1));
+
+
+            holder.leftVal.setText(leftright[questionnaire_num-1][0]);
+            holder.rightVal.setText(leftright[questionnaire_num-1][1]);
+
+            if(questionnaire_num==1 && position>7){
+                holder.rightVal.setText("");
+                holder.leftVal.setText("");
+            }
+//            if(questionnaire_num==1){
+//
+//            }
 
             holder.rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
             {

@@ -7,7 +7,7 @@
     tools:context=".Questionnaire.Questionnaire4">
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView_right_questionnaire1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toBottomOf="@+id/radioGroup_questionnaire" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView_left_questionnaire1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

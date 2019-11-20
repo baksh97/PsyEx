@@ -45,7 +45,7 @@ public class FinalAct extends AppCompatActivity {
 //        myRef.
 
 
-        for (String i: DecideOrder.fileNames) {
+        for (String i: DecideOrder.s) {
             uploadFile(i, UserInfo.userId);
         }
 //        }

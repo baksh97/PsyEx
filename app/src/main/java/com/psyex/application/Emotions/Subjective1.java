@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioGroup;
+import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputLayout;
@@ -28,6 +30,27 @@ public class Subjective1 extends AppCompatActivity {
     private static final String TAG = "subjectiveCond2";
     int condition;
 
+    TextInputLayout til1, til2;
+    SeekBar rg1, rg2;
+    boolean responded1=false, responded2=false;
+    TextView chosen1,chosen2;
+
+    String getResponses(){
+
+        String resp = "";
+        if(responded1)
+            resp += String.valueOf(rg1.getProgress())+"\n";
+        else resp += "-1\n";
+
+        if(responded2)
+            resp += String.valueOf(rg2.getProgress())+"\n";
+        else resp += "-1\n";
+
+        resp += til1.getEditText().getText().toString()+"\n";
+        resp += til2.getEditText().getText().toString();
+        return resp;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,16 +60,88 @@ public class Subjective1 extends AppCompatActivity {
 
         TextView heading = (TextView) findViewById(R.id.textView_cond_subj);
         heading.setText("CONDITION "+String.valueOf(condition));
+        chosen1 = (TextView) findViewById(R.id.textView_chosen_question1_subjective);
+        chosen2 = (TextView) findViewById(R.id.textView_chosen_question2_subjective);
 
-        TextView tv_subjective = (TextView) findViewById(R.id.textView_subjective);
-        final TextInputLayout til_subjective = (TextInputLayout) findViewById(R.id.textInputLayout_subjective);
         Button contSubjective = (Button) findViewById(R.id.button_subjective);
 
-        if(condition==2){
-            tv_subjective.setText(getResources().getString(R.string.condition2_subjective_start));
+
+        til1 = (TextInputLayout) findViewById(R.id.til_question3_subjective);
+        til2 = (TextInputLayout) findViewById(R.id.til_question4_subjective);
+
+        rg1 = (SeekBar) findViewById(R.id.seekBar1);
+        rg2 = (SeekBar) findViewById(R.id.seekBar2);
+
+        chosen1.setText("50");
+        chosen2.setText("50");
+
+        rg1.setProgress(50);
+        rg2.setProgress(50);
+
+        rg1.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                chosen1.setText(String.valueOf(i));
+                responded1 = true;
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+//                chosen1.setText(String.valueOf(i));
+                responded1 = true;
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+//                chosen1.setText(String.valueOf(i));
+                responded1 = true;
+
+            }
+        });
+
+        rg2.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                chosen2.setText(String.valueOf(i));
+                responded2 = true;
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+//                chosen2.setText(String.valueOf(i));
+                responded2 = true;
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+//                chosen2.setText(String.valueOf(i));
+                responded2 = true;
+
+            }
+        });
+
+        TextView[] tv = new TextView[4];
+
+        tv[0] = (TextView) findViewById(R.id.textView1_subjective_emotions);
+        tv[1] = (TextView) findViewById(R.id.textView2_subjective_emotions);
+        tv[2] = (TextView) findViewById(R.id.textView3_subjective_emotions);
+        tv[3] = (TextView) findViewById(R.id.textView4_subjective_emotions);
+
+        String[] questions = new String[4];
+        if(condition==1){
+            questions = getResources().getStringArray(R.array.condition1_subjective);
+        }
+        else if(condition==2){
+            questions = getResources().getStringArray(R.array.condition2_subjective);
         }
         else{
-            tv_subjective.setText(getResources().getString(R.string.condition3_subjective_start));
+            questions = getResources().getStringArray(R.array.condition3_subjective);
+        }
+
+        for(int i=0;i<4;i++){
+            tv[i].setText(questions[i]);
+//            tv_nums[i].setText(String.valueOf(i+1));
         }
 
         contSubjective.setOnClickListener(new View.OnClickListener() {
@@ -56,8 +151,13 @@ public class Subjective1 extends AppCompatActivity {
                 File file = new File(ChooseMode.userfolder.getAbsolutePath(), fileName);
 
                 DecideOrder.addFile(file.getAbsolutePath());
-                DecideOrder.saveTextAsFile(til_subjective.getEditText().getText().toString(), file);
-                if(condition==2){
+                DecideOrder.saveTextAsFile(getResponses(), file);
+
+                if(condition==1){
+                    finish();
+                    startActivity(new Intent(Subjective1.this, Instructions5.class));
+                }
+                else if(condition==2){
                     finish();
                     startActivity(new Intent(Subjective1.this, Instructions7.class));
                 }
