@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.psyex.application">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.psyex.application.Emotions.Subjective1" />
+
+        <activity android:name="com.psyex.application.FinalAct" />
+
+        <activity android:name="com.psyex.application.Gonogo.Instructions1" />
+        <activity android:name="com.psyex.application.Gonogo.Instructions2" />
+        <activity android:name="com.psyex.application.Gonogo.Instructions3" />
+        <activity android:name="com.psyex.application.Gonogo.Instructions4" />
+
+        <activity android:name="com.psyex.application.Stroop.Instructions1" />
+        <activity android:name="com.psyex.application.Stroop.Instructions2" />
+
+        <activity android:name="com.psyex.application.Emotions.Instructions1" />
+        <activity android:name="com.psyex.application.Emotions.Instructions2" />
+        <activity android:name="com.psyex.application.Emotions.Instructions3" />
+        <activity android:name="com.psyex.application.Emotions.Instructions4" />
+        <activity android:name="com.psyex.application.Emotions.Instructions5" />
+        <activity android:name="com.psyex.application.Emotions.Instructions6" />
+        <activity android:name="com.psyex.application.Emotions.Instructions7" />
+        <activity android:name="com.psyex.application.Emotions.Instructions8" />
+        <activity android:name="com.psyex.application.Emotions.Instructions9" />
+
+        <activity android:name="com.psyex.application.Timer" />
+        <activity android:name="com.psyex.application.UserInfo" />
+        <activity android:name="com.psyex.application.Consent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.psyex.application.ChooseMode" />
+        <activity android:name="com.psyex.application.DecideOrder" />
+        <activity android:name="com.psyex.application.Questionnaire.Questionnaire6" />
+        <activity android:name="com.psyex.application.Questionnaire.Questionnaire5" />
+        <activity android:name="com.psyex.application.Questionnaire.Questionnaire4" />
+        <activity android:name="com.psyex.application.Questionnaire.Questionnaire3" />
+        <activity android:name="com.psyex.application.Questionnaire.Questionnaire2" />
+        <activity android:name="com.psyex.application.Questionnaire.Questionnaire1" />
+        <activity android:name="com.psyex.application.Stroop.Stroop" />
+        <activity android:name="com.psyex.application.Gonogo.Gonogo" />
+        <activity android:name="com.psyex.application.Emotions.Emotions" />
+        <activity android:name="com.psyex.application.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

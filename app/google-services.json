@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "project_number": "1094207194168",
+    "firebase_url": "https://psychoexp.firebaseio.com",
+    "project_id": "psychoexp",
+    "storage_bucket": "psychoexp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094207194168:android:97f2340c6f365233b492cd",
+        "android_client_info": {
+          "package_name": "com.example.pshyco2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5t0eWPNDLRw26v2JGo62GE-vsQrWzQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094207194168:android:7880bca2aca6fc2cb492cd",
+        "android_client_info": {
+          "package_name": "com.example.psycho2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5t0eWPNDLRw26v2JGo62GE-vsQrWzQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094207194168:android:4eaedabba23879f3b492cd",
+        "android_client_info": {
+          "package_name": "com.example.psychologyexperiment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5t0eWPNDLRw26v2JGo62GE-vsQrWzQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094207194168:android:cca1bfb551cc99dcb492cd",
+        "android_client_info": {
+          "package_name": "com.example.psyexadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5t0eWPNDLRw26v2JGo62GE-vsQrWzQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094207194168:android:638e58f3184b88d2b492cd",
+        "android_client_info": {
+          "package_name": "com.psyex.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg5t0eWPNDLRw26v2JGo62GE-vsQrWzQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094207194168-v52rt24qbkjmuq6on448e88ta0ftq7gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

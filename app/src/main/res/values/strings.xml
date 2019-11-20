@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">PsyEx</string>
+    <string name="color_description_stroop">1-Red, 2-Green, 3-Blue, 4-Yellow</string>
+    <string name="final_string">Thank you for your valuable time and participation. Your repsonses have been recorded for research purposes.</string>
+    <string name="final_string_practice">Practice ended! Taking you back to home.</string>
+    <string name="condition1_instructions">Condition 1:\n\nSome of the pictures may prompt emotional experiences; others may seem relatively neutral. Your rating of each picture should reflect your immediate personal experience, and no more. Please rate each picture AS YOU ACTUALLY FELT WHILE YOU WATCHED THE PICTURE.\nPlease look at the pictures and allow your thoughts and emotions to unfold naturally. Please attend to and respond naturally to the picture without trying to alter the feelings elicited.\nPlease view the following and rate the pictures on the questions that follow. Please clarify any doubts that you have regarding the experiment and ratings in this phase.\nTouch \"Next\" to continue!!</string>
+    <string name="condition2_instructions">Condition 2:\n\nFor this phase of the experiment, please try and feel neutral in response to an unpleasant or pleasant image by reinterpreting its meaning to be more neutral. For example, if the image displayed a group of women crying outside of a church, the participant could alter their interpretation of the image by thinking that the women were crying tears of joy after attending a wedding. Please try and reinterpret the displayed situation in such a way that the depicted scene becomes less unpleasant (e.g., imagining the situation being unreal or assuming a different outcome of the scene than the one suggested).\nYou are encouraged to interpret potentially emotionally relevant stimuli in unemotional terms. While viewing the picture, be it positive or negative, please remember that what you are seeing is a picture, with models and different kinds of special effects. The way we emotionally react to something is determined by the way we interpret the situation. By changing the way we think about a situation we can therefore influence our emotional reactions.\nKeeping in mind the instructions given, please use the emotion regulation strategies for reinterpreting the situation depicted in the picture, only after the onset of the picture and not in advance.\nPlease rate the emotions elicited on the three scales following the instructions.\nClick “Next” to continue!!</string>
+    <string name="condition2_subjective_start">PLEASE EXPLAIN BRIEFLY WHICH EMOTION REGULATION STRATEGY OR STRATEGIES YOU USED FOR THIS PHASE OF THE EXPERIMENT WHILE RATING THE PICTURES.</string>
+    <string name="condition3_instructions">Condition 3:\n\nFor this phase of the experiment, it is very important for the experiment that when you view the image you try and suppress any emotional responses to it you are having. What is meant by this is that you should adopt a detached and unemotional attitude as you view the picture, whether it is positive or negative. Try to think about what you are seeing objectively in such a way that you don’t feel anything at all. In other words, as you view the picture, try to behave in such a way that a person watching you would not know that you were feeling anything. For example, if the picture makes you feel sad, please try to decrease the intensity of sadness that you feel.\nKeeping in mind the instructions given for this phase of the experiment, please use the emotion regulation strategies to suppress your emotions only after picture onset and not in advance.\nKindly please rate the emotions elicited on the three scales following the instructions.</string>
+    <string name="condition3_subjective_start">PLEASE EXPLAIN BRIEFLY WHICH EMOTION REGULATION STRATEGY OR STRATEGIES YOU USED FOR THIS PHASE OF THE EXPERIMENT WHILE RATING THE PICTURES.</string>
+    <string name="practice_end_remarks_main">Thank you for completing the practice phase of the experiment. Now the next phase of the experiment will begin and you will be given short breaks in between to rest your eyes. The experiment will proceed in the same way as this trial where you will be instructed before viewing a picture and then will be required to rate it on 3 dimensions.
+Click \"Next\" to continue!!</string>
+    <string name="condition1_end_remarks">Thank you for completing the first main test phase of the experiment.
+Please take a short break and click \"Next\" to begin the second phase of the experiment.
+Click next only when you have rested and ready to begin rating the next set of pictures.</string>
+    <string name="condition2_end_remarks">Thank you for finishing this phase of the experiment. Please take a short break and click \"Next\" to start the next phase.
+Click \"Next\" only when you have rested and ready to begin rating the next set of pictures.</string>
+    <string name="condition3_end_remarks">Thank you for completing this experiment on emotions.
+
+Please rest your eyes and click \"Next\" only when you have rested and ready to begin the next task of the psychology experiment.</string>
+    <string name="question1">From 0-100, to what extent does this picture make you feel negative or positive?\n(Very negative, Neutral, Very positive)</string>
+    <string name="question2">From 0-100, to what extent does this picture make you feel calm or excited?\n(Calm, Neutral, Excited)</string>
+    <string name="question3">From 0-100, to what extent does this picture make you feel stimulated or relaxed?\n(Stimulated, Neutral, Relaxed)</string>
+    <string name="gonogo_instrt_for_0">Now you will do the task for real. Respond only when you see a \'P\'. Press continue to begin.</string>
+    <string name="gonogo_instrt_for_1">Now you will do the task for real. Respond only when you see a \'R\'. Press continue to begin.</string>
+    <string name="stroop_instrt">Practice is complete. Now you will be tested for real. Remember to answer as quickly and accurately as possible. Touch next to cintinue.</string>
+    <!--<string name="main_instrt">Practice has ended. Now your responses will be recorded for real. Press continue to begin.</string>-->
+    <string name="instr_questionnaire1">Instructions for questions 1-8:\nBelow you will find a series of statements about yourself, which you can agree or disagree with. Read them carefully and answer on a scale of 1 to 5, based your experience\n1. Strongly disagree\n2. Disagree\n3. Neither agree nor disagree\n4. Agree\n5. Strongly agree\n\nInstructions for questions 9-12:\nBelow you will find a series of adjectives, in two parallel columns, that describe how you have felt over the past two weeks. There are five numbers between each pair of adjectives. Please select the number that most closely describes your experience.</string>
+    <string name="instr_questionnaire2">Please indicate how often you experience the internal states described in each of the items, given below, on a scale of 1 (not at all) to 5 (all the time).</string>
+    <string name="instr_questionnaire3">Please indicate how often you experience the internal states described in each of the items, given below, on a scale of 1 (not at all) to 5 (all the time).</string>
+    <string name="instr_questionnaire4">We would like to ask you some questions about your emotional life, in particular, how you control (that is, regulate and manage) your emotions. The questions below involve two distinct aspects of your emotional life. One is your emotional experience, or what you feel like inside. The other is your emotional expression, or how you show your emotions in the way you talk, gesture, or behave. Although some of the following questions may seem similar to one another, they differ in important ways. For each item, please answer using the following scale:\n\n1. Strongly disagree\n2. Disagree\n3. Neutral\n4. Agree\n5. Strongly agree</string>
+    <string name="instr_questionnaire5">Please use the following five-point scale to answer the questions to mark the extent to which you make use of certain cognitive coping strategies.” \n\'almost never\' (1), \'sometimes\' (2), \'regularly\' (3), \'often\' (4), or \'almost always\' (5)</string>
+
+    <string name="gonogo_instrt_practice_for_0">In this task, you will see a series of \'P\'s and \'R\'s on the screen. Whenever you see a \'P\', respond by touching anywhere on the screen. DO NOT RESPOND when you see and \'R\'. Most of the letters you see will be \'P\'s. You will begin with a few practice trials. Press continue to begin.</string>
+    <string name="gonogo_instrt_practice_for_1">You may take a short break before you continue. In the second half of this study, the mapping will be reverse. This time touch the screen only when you see the \'R\', but not when you see \'P\'. You will begin with a few practice trials. Touch continue to begin.</string>
+    <string name="stroop_instrt_practice">You are about to take part in a study in which you will be asked to determine the color that written word appears in. Somwtime, the words will be actual color names. When this happens, try not to respond with the written color name, but only with the color of the word. You will need to respond by touching 1-2-3-4 buttons on the screen. Remeber the following color scheme:\n1 - Red\n2 - Green\n3 - Blue\n4 - Yellow.\n It will also be written on the screen in case you forget.</string>
+    <string name="main_instr_practice">Please view the following and rate the pictures on the questions that follow. Please clarify
+any doubts that you have regarding the experiment and ratings in this phase.
+Click \"Next\" to continue!!</string>
+    <string name="main_preinstrt_practice">This is a psychology experiment wherein you will be subjected to pictures and required to rate it on a few parameters. You will be instructed for each part of the experiment clearly and you will be allowed to ask any question at any stage. There will be 3 conditions within this experiment.
+
+In this experiment, you will be looking at pictures on the screen in front of you, and you will be asked to rate each picture in terms of how it made you feel while viewing it. There are no right or wrong answers, so simply respond as honestly as you can.
+
+You will make 3 ratings for each picture that you view in all the three conditions. You will rate three different kinds of feelings: Valence Scale: Very Negative Pictures vs. Very Positive Pictures (Negative, Neutral, Positive) Arousal Scale 1: Calm vs. Excited (Calm, Neutral, Excited) Arousal Scale 2: Stimulated vs. Relaxed (Stimulated, Neutral, Relaxed)
+
+1. Valence Scale - (Very Negative Pictures vs. Very Positive Pictures (Negative, Neutral, Positive) :
+
+The first scale will be from negative to positive and say, \"You are judging this image as ...\". This scale will give the rating of valence for the pictures (from 0 = very negative pictures to 100 = very positive pictures, with 50 = neutral). At one extreme of the scale, you felt happy, pleased, satisfied, contented, hopeful. If you felt completely positive while viewing the picture, please click the marker at or closer to the Positive end of the scale. The other end of the scale is when you felt completely unhappy, annoyed, unsatisfied, melancholic, despaired, bored. You can indicate feelingcompletely Negative by clicking the marker at Negative. If you felt completely neutral, neither happy nor unhappy, click the marker at the midpoint of the scale.
+
+Your rating should indicate whether the picture generated Negative, Neutral, or Positive feeling in you.
+
+2. Arousal Scale 1: Calm vs. Excited (Calm, Neutral, Excited) and
+
+Arousal Scale 2: Stimulated vs. Relaxed (Stimulated, Neutral, Relaxed)
+
+If you felt low (0%) excitement/stimulation (e.g., you felt calm, relaxed, sluggish, dull, sleepy, unaroused), please click the marker at, or closer to the Calm end of the scale –if you felt high (100%) excitement (e.g., you felt stimulated, excited, frenzied, jittery, wide-awake, aroused), please click towards the Excited end of the scale. If you felt Neutral (50%) of excitement, click the marker at the midpoint of the scale.
+
+On the contrary, if you felt low (0%) excitement/stimulation or 100% relaxed (e.g., you felt calm, relaxed, sluggish, dull, sleepy, unaroused), please click the marker at, or closer to the Relaxed end of the scale –if you felt low (0% excitement (e.g., you felt stimulated, excited, frenzied, jittery, wide-awake, aroused), please click towards the Stimulated end of the scale.If you felt Neutral (50%) of excitement, click the marker at the midpoint of the scale.
+
+Your rating should indicate whether the picture generated Low, Neutral, or High level of Excitement in you.
+
+Click \"Next\" to continue!!</string>
+
+    <string-array name="questions1">
+        <item>I feel like an important member of society.</item>
+        <item>I feel close to other members of society.</item>
+        <item>I am committed to addressing the problems faced by society.</item>
+        <item>I believe that my work contributes to the well-being my society.</item>
+        <item>I find my life to be full of meaning. (I have a compass, a sense of mission that makes my life fulfilling and helps me to overcome the possible failures or contradictions that I experience).</item>
+        <item>I am committed to my daily activities (e.g. work and family activities, etc.)</item>
+        <item>I am happy with my current lifestyle.</item>
+        <item>I am happy with my family.</item>
+        <item>Negative - Positive</item>
+        <item>Disagreeable - Friendly</item>
+        <item>Sad - Happy</item>
+        <item>Angry - Content</item>
+        <!--<item>5</item>-->
+        <!--<item>6</item>-->
+        <!--<item>7</item>-->
+        <!--<item>8</item>-->
+        <!--<item>9</item>-->
+        <!--<item>10</item>-->
+    </string-array>
+
+    <string-array name="questions2">
+        <item>My mind is free and at ease</item>
+        <item>I feel content and comfortable with myself in daily life</item>
+        <item>My lifestyle gives me feelings of peace and stability</item>
+        <item>I have peace and harmony in my mind</item>
+        <item> It is difficult for me to feel settled</item>
+        <item>The way I live brings me feelings of peace and comfort</item>
+        <item>I feel anxious and uneasy in my mind</item>
+        <!--<item>5</item>-->
+        <!--<item>6</item>-->
+        <!--<item>7</item>-->
+        <!--<item>8</item>-->
+        <!--<item>9</item>-->
+        <!--<item>10</item>-->
+    </string-array>
+
+    <string-array name="questions3">
+        <item>My lifestyle allows me to be in harmony</item>
+        <item>Most aspects of my life are in balance</item>
+        <item>I am in harmony</item>
+        <item>I accept the various conditions of my life</item>
+        <item>I fit in well with my surroundings</item>
+        <!--<item>5</item>-->
+        <!--<item>6</item>-->
+        <!--<item>7</item>-->
+        <!--<item>8</item>-->
+        <!--<item>9</item>-->
+        <!--<item>10</item>-->
+    </string-array>
+
+    <string-array name="questions4">
+        <item>When I want to feel more positive emotion (such as joy or amusement), I change what I’m thinking about.</item>
+        <item>I keep my emotions to myself.</item>
+        <item>When I want to feel less negative emotion (such as sadness or anger), I change what I’m thinking about.</item>
+        <item>When I am feeling positive emotions, I am careful not to express them.</item>
+        <item>When I’m faced with a stressful situation, I make myself think about it in a way that helps me stay calm.</item>
+        <item>I control my emotions by not expressing them.</item>
+        <item>When I want to feel more positive emotion, I change the way I’m thinking about the situation.</item>
+        <item>I control my emotions by changing the way I think about the situation I’m in.</item>
+        <item>When I am feeling negative emotions, I make sure not to express them.</item>
+        <item>When I want to feel less negative emotion, I change the way I’m thinking about the situation.</item>
+        <!--<item>5</item>-->
+        <!--<item>6</item>-->
+        <!--<item>7</item>-->
+        <!--<item>8</item>-->
+        <!--<item>9</item>-->
+        <!--<item>10</item>-->
+    </string-array>
+
+    <string-array name="questions5">
+        <item>I feel that I am the one who is responsible for what has happened</item>
+        <item>I think that I have to accept the situation</item>
+        <item>I often think about how I feel about what I have experienced</item>
+        <item>I think of something nice instead of what has happened</item>
+        <item>I think about how to change the situation</item>
+        <item>I think I can learn something from the situation</item>
+        <item>I think that it hasn’t been too bad compared to other things</item>
+        <item>I keep thinking about how terrible it is what I have experienced</item>
+        <item>I feel that others are responsible for what has happened</item>
+        <item>I think that basically the cause must lie within myself</item>
+        <item>I think that I have to accept that this has happened</item>
+        <item>I am preoccupied with what I think and feel about what I have experienced</item>
+        <item>I think of pleasant things that have nothing to do with it</item>
+        <item>I think about a plan of what I can do best</item>
+        <item>I think that I can become a stronger person as a result of what has happened</item>
+        <item>I tell myself that there are worse things in life</item>
+        <item>I continually think how horrible the situation has been</item>
+        <item>I think about the mistakes others have made in this matter</item>
+        <!--<item>5</item>-->
+        <!--<item>6</item>-->
+        <!--<item>7</item>-->
+        <!--<item>8</item>-->
+        <!--<item>9</item>-->
+        <!--<item>10</item>-->
+    </string-array>
+
+    <string-array name="user_field_names">
+        <item>Name</item>
+        <item>Age</item>
+        <item>Gender (Male/Female)</item>
+        <item>Educational Qualification</item>
+        <item>Professional Qualification</item>
+        <item>Practice/s Followed</item>
+        <item>Practice/s Duration</item>
+        <item>Marital Status</item>
+        <item>No. of children (If Any)</item>
+        <item>Currently Living with</item>
+        <item>Socioeconomic status</item>
+        <item>Language/s spoken</item>
+        <item>Any current illness or medication:</item>
+    </string-array>
+
+    <string-array name="assessment">
+        <item>How do you feel after completing the course? </item>
+        <item>Which aspect/s of the course did you like the most? Please specify as clearly as possible.</item>
+        <item>Which part/s of the course did you like the least and why?</item>
+        <item>What are the perceived benefits and changes that you notice in yourself and your personality after attending the course? Please elaborate as clearly as you can.</item>
+        <item>Would you like to be a part of other such courses? If yes, which kinds of courses or programs or sessions?</item>
+    </string-array>
+
+
+    <string name="continue_practice">Continue</string>
+    <string name="practice_extra">isPractice</string>
+
+    <string name="consent">Dear Participant,\nI am a PhD Scholar at HUSS, IIT Delhi working with Prof. Kamlesh Singh. I am conducting a research study on meditation practices. I am working on how meditation influences other psychological constructs. This research will help us understand the benefits of meditation and positive practice sessions in our everyday life and functioning.\n\nWritten Informed Consent by the Participant\nI give my consent to participate in the study after understanding fully about the research study as explained to me by the researcher without any force or coercion. I understand that the information provided by me in this regard will remain confidential. I also understand that I have the freedom to discontinue from participating in the study if I feel uncomfortable at any point or desire to do so. I give my consent to the use of the information provided by me for academic/research/teaching/publication purposes.\nPLEASE CLICK NEXT IF YOU GIVE CONSENT TO PARTICIPATE IN THIS RESEARCH. </string>
+</resources>
