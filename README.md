@@ -11,3 +11,5 @@ It includes 3 experiements:
 And some questionnaires between the experiments
 
 The user has to give his/her consent before performing the experiments, and the results of the experiments are stored in a cloud database which can be downloaded using a master app.
+
+Link to the app https://play.google.com/store/apps/details?id=com.psyex.application
